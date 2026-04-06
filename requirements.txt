@@ -1,0 +1,27 @@
+# Smart Crop Advisory System - Python Dependencies
+# No external dependencies required!
+# This application uses only Python standard library
+
+# Python Version: 3.8+
+# 
+# The complete application runs with zero external dependencies:
+# - HTTP Server: Built-in http.server
+# - Database: Built-in sqlite3
+# - JSON Handling: Built-in json
+# - Date/Time: Built-in datetime
+# - Threading: Built-in threading
+# - Web Browser: Built-in webbrowser
+# - URL Parsing: Built-in urllib
+# - Logging: Built-in logging
+# - Random: Built-in random
+# - Type Hints: Built-in typing
+
+# Optional dependencies for enhanced features (not required):
+# requests>=2.28.0  # For external API calls (if needed)
+# Pillow>=9.0.0     # For advanced image processing (if needed)
+# pandas>=1.4.0     # For advanced data analysis (if needed)
+
+# To run the application:
+# python backend/production_ready_app.py
+
+# No installation required - just Python 3.8+!

@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Node modules (if any)
+node_modules/
+
+# Large data files (keep only samples)
+data/raw/
+data/external_knowledge/
+data/pdfs/
+data/PlantVillage/
+
+# Keep only essential data
+!data/PRICES and arrivals .xlsx
+!data/policies.txt
+!data/PlantVillage/Pepper__bell___Bacterial_spot/0a0dbf1f-1131-496f-b337-169ec6693e6f___NREC_B.Spot 9241.JPG
+!data/PlantVillage/Pepper__bell___Bacterial_spot/0a4c007d-41ab-4659-99cb-8a4ae4d07a55___NREC_B.Spot 1954.JPG
+!data/PlantVillage/Pepper__bell___Bacterial_spot/0a9cfb27-280e-475a-bbb4-8eeaeff38b8c___NREC_B.Spot 9177.JPG
+
+# Models (keep only essential)
+models/*.pkl
+!models/crop_encoder.pkl
+!models/soil_recommendation_model.pkl
+!models/yield_prediction_model.pkl
+
+# Documentation
+docs/build/
